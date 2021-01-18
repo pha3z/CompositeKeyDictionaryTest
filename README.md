@@ -27,7 +27,7 @@ The second part of keys is saved in the nested dictionaries.
 ## Conclusion:
 On my machine, the true Composite-Key Dictionary outperformed the Nested Dictionary... especially in some cases of ADD.
 
-These tests were built fairly quickly just as a proof of concept. I was really only interested in proving that a ValueTuple CompositeKey dictionary would perform as fast or better than a nested dictionary. The tests prove that this is the case.  You can count on a standard composite key dictionary in most cases.
+These tests were built fairly quickly just as a proof of concept. I was really only interested in proving that a ValueTuple CompositeKey dictionary would perform as fast or better than a nested dictionary. The tests prove that this is the case.  You can count on a ValueTuple dictionary in most cases.
 
 There is one situation where a Nested Dictionary would work better:
 If your program needs to look up a particular subdictionary and then do successive lookups exclusively on that one subdictionary.
