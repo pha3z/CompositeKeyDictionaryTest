@@ -1,6 +1,6 @@
 ## CompositeKeyDictionaryTest
 A performance comparison of Composite Key Dictionary vs Nested Dictionary.
-Note that this implementation actually uses ConcurrentDictionary<T> instead of Dictionary<T>
+Note that this implementation actually uses ConcurrentDictionary instead of Dictionary
 
 Depends on Nuget pkg BenchmarkDotNet.
 
