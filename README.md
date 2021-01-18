@@ -10,10 +10,10 @@ There are two Data Structure Classes:
 Both implement ICompositeDictionary
 
 Tests are run using different composite keys of type:
-int, int
-string, string
-int, string
-string, int
+- (int, int)
+- (string, string)
+- (int, string)
+- (string, int)
 
 Seperate LOOKUP and ADD tests are run.
 
