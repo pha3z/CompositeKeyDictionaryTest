@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeDictionary", "CompositeDictionary\CompositeDictionary.csproj", "{F6C2708E-29D4-4215-8B11-9C29FEFA8D92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeDictionaryStd", "CompositeDictionaryStd\CompositeDictionaryStd.csproj", "{7F35F902-3382-41E4-B63A-AFE5E2670DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C2708E-29D4-4215-8B11-9C29FEFA8D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C2708E-29D4-4215-8B11-9C29FEFA8D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C2708E-29D4-4215-8B11-9C29FEFA8D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C2708E-29D4-4215-8B11-9C29FEFA8D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F35F902-3382-41E4-B63A-AFE5E2670DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F35F902-3382-41E4-B63A-AFE5E2670DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F35F902-3382-41E4-B63A-AFE5E2670DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F35F902-3382-41E4-B63A-AFE5E2670DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2D16248-C8D1-4B8C-BB41-A424D3C7AD06}
+	EndGlobalSection
+EndGlobal
