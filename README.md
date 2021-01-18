@@ -31,7 +31,7 @@ These tests were built fairly quickly just as a proof of concept. I was really o
 
 There is one situation where a Nested Dictionary would work better:
 If your program needs to look up a particular subdictionary and then do successive lookups exclusively on that one subdictionary.
-In such a case, the first lookup would load a chunk of the second-level dictionary into hot cache. Then successive lookups would be less likely to require memory fetches. Such a case could be enormously faster than a true composite key dictionary depending on the data layout in memory.
+In such a case, the first lookup would load a chunk of the second-level dictionary into hot cache. Then successive lookups would be less likely to require memory fetches. Such a case could be enormously faster than a true composite key (ValueTuple) dictionary depending on the data layout in memory.
 
 
 
